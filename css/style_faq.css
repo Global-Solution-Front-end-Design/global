@@ -98,8 +98,14 @@ header input{
 
 }
 
+.main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .bloco1{
-    background-image: url(../images/global.gif) ;
+    background-image: url('../images/global.gif');
     width: 100%;
     height: 370px;
 
@@ -125,6 +131,12 @@ header input{
     text-align: center;
 }
 
+.subtitulo{
+    font-family: Lemon Milk Light;
+    font-size: 20px;
+    text-align: center; 
+}
+
 
 .bloco2{
     text-align: center;
@@ -132,6 +144,7 @@ header input{
     padding: 20px;
     
 }
+
 
 
 
