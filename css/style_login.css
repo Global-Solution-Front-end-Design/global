@@ -10,6 +10,12 @@
 }
 
 @font-face {
+    font-family: 'Lemon Milk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format(opentype);
+}
+
+
+@font-face {
     font-family: 'Alberto Sans 2';
     src: url(../fonts/AlbertSans-VariableFont_wght.ttf) format(truetype);
 }
@@ -49,9 +55,8 @@ main {
 
 .form-main h2 {
   font-size: 2rem;
-  color: #0077C8;
   margin-bottom: 30px;
-  font-family: Lemon Milk Light;
+  font-family: Lemon Milk;
 }
 
 .input-grupo {
