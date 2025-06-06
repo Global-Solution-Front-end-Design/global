@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Alberto Sans';
+    src: url(../fonts/AlbertSans-Italic-VariableFont_wght.ttf) format(truetype);
+    
+}
+
+@font-face {
+    font-family: 'Alberto Sans 2';
+    src: url(../fonts/AlbertSans-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Lemon Milk Light';
+    src: url(../fonts/LEMONMILK-Light.otf) format(opentype);
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 130px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    font-family: Alberto Sans;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: #fdd017;
+
+
+}
+
+.barrapesquisa{
+    display: flex;
+    margin-left: 70px;
+}
+
+
+
+header input{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 12px 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  position: relative;
+
+}

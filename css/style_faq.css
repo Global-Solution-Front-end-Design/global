@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Alberto Sans';
+    src: url(../fonts/AlbertSans-Italic-VariableFont_wght.ttf) format(truetype);
+    
+}
+
+@font-face {
+    font-family: 'Alberto Sans 2';
+    src: url(../fonts/AlbertSans-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url(../fonts/LEMONMILK-Medium.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Lemon Milk Light';
+    src: url(../fonts/LEMONMILK-Light.otf) format(opentype);
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 130px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    font-family: Alberto Sans;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: #fdd017;
+
+
+}
+
+.barrapesquisa{
+    display: flex;
+    margin-left: 70px;
+}
+
+
+
+header input{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 12px 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.bloco1{
+    background-image: url(../images/global.gif) ;
+    width: 100%;
+    height: 370px;
+
+}
+
+.tituloprincipal{
+
+    color: white;
+    font-family: Lemon Milk;
+    font-size: 50px;
+    width: 65%;
+    margin: 0 auto;
+    padding: 80px;
+    margin-top: 40px;
+    
+}
+
+
+
+.titulo{
+    font-family: Lemon Milk;
+    font-size: 55px;
+    text-align: center;
+}
+
+
+.bloco2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+
+
+.textointroducao{
+    width: 50%;
+    font-family: Alberto Sans;
+    text-align: justify;
+    margin-left: 350px;
+    margin-top: 30px;
+
+}
+
