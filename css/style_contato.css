@@ -130,4 +130,111 @@ main{
     text-align: center;
 }
 
+.bloco2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+
+.textointroducao{
+    width: 50%;
+    font-family: Alberto Sans;
+    text-align: justify;
+    margin-left: 360px;
+    margin-top: 30px;
+
+}
+
+.form-contato {
+
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 50%;
+  background-color: black;
+  text-align: center;
+  border-radius: 40px;
+  margin-left: 25% ;
+
+  
+
+}
+
+.form-contato h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: Lemon Milk;
+  color: white;
+}
+
+.input-grupo {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 12px 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  
+  
+}
+
+.input-grupo i {
+  margin-right: 10px;
+  color: #888;
+  
+}
+
+.input-grupo input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-family: Alberto Sans;;
+}
+
+
+
+
+
+.login-btn {
+  font-family: Alberto Sans;;
+  background-color: #0077C8;
+  font-weight: bold;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    min-height: 50px;
+    font-family: Alberto Sans;
+    padding: 15px;
+    justify-items: center;
+    margin-top: 70px;
+    
+}
+
+.local{
+    display: flex;
+    text-indent: 10px;
+}
+
+.local h3{
+    margin-top: 6px;
+}
+
+
+
 

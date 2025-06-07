@@ -192,6 +192,7 @@ main input:hover{
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    background-color: black;
 }
 
 .linha1 h3{
@@ -200,11 +201,16 @@ main input:hover{
 
 }
 
+.linha1 p{
+    color: white;
+}
+
 .objetivo{
     width: 25%;
     text-align: center;
     padding: 5px;
     margin-left: 20px;
+    
     
 
 }
@@ -221,6 +227,7 @@ main input:hover{
     width: 25%;
     text-align: center;
     padding: 5px;
+    
 
 }
 
@@ -298,4 +305,24 @@ main input:hover{
     text-align: justify;
     margin-top: 10px;
 
+}
+
+footer{
+    color: white;
+    background-color: black;
+    min-height: 50px;
+    font-family: Alberto Sans;
+    padding: 15px;
+    justify-items: center;
+    
+    
+}
+
+.local{
+    display: flex;
+    text-indent: 10px;
+}
+
+.local h3{
+    margin-top: 6px;
 }

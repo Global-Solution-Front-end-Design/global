@@ -185,4 +185,24 @@ main{
     
 }
 
+footer{
+    color: white;
+    background-color: black;
+    min-height: 50px;
+    font-family: Alberto Sans;
+    padding: 15px;
+    justify-items: center;
+    
+    
+}
+
+.local{
+    display: flex;
+    text-indent: 10px;
+}
+
+.local h3{
+    margin-top: 6px;
+}
+
 

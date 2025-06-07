@@ -133,12 +133,7 @@ main{
     text-align: center;
 }
 
-.subtitulo{
-    font-family: Lemon Milk Light;
-    font-size: 20px;
 
-    text-align: center;
-}
 
 .bloco2{
     text-align: center;
@@ -147,11 +142,6 @@ main{
     
 }
 
-.titulo2{
-    font-family: Lemon Milk;
-    font-size: 30px;
-    
-}
 
 .textointroducao{
     width: 50%;
@@ -161,3 +151,162 @@ main{
     margin-top: 30px;
 
 }
+
+.bloco3{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.bloco3 img{
+    margin-left: 300px;
+}
+
+.mapeamento{
+    display: block;
+    margin-left: 20px
+    
+
+    
+}
+
+.titulomapeamento{
+    color: #588b2c;
+    font-size: 29px;
+    font-family: Lemon Milk Light;
+
+}
+
+.textomapeamento{
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+    font-family: Alberto Sans;
+    font-size: 20px;
+}
+
+
+.bloco4{
+    display: flex;
+    font-family: Lemon Milk Light;
+    padding: 20px;
+    align-items: center;
+}
+
+.alerta{
+    margin-left: 300px;
+}
+
+.bloco4 img{
+    margin-right: 350px;
+}
+
+
+
+.tituloalerta{
+    color: #588b2c;
+    font-size: 29px;
+    font-family: Lemon Milk Light;
+}
+    
+
+.textoalerta{
+    margin-top: 20px;
+    text-align: justify;
+    width: 90%;
+    font-family: Alberto Sans;
+    font-size: 20px;
+
+}
+
+.bloco5{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+.bloco5 img{
+    margin-left: 300px;
+}
+
+.rede{
+    display: block;
+    margin-left: 20px
+      
+}
+
+.titulorede{
+    color: #588b2c;
+    font-size: 29px;
+    font-family: Lemon Milk Light;
+
+}
+
+.textorede{
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+    font-family: Alberto Sans;
+    font-size: 20px;
+}
+
+.bloco6{
+    display: flex;
+    font-family: Lemon Milk Light;
+    padding: 20px;
+    align-items: center;
+}
+
+.auxilio{
+    margin-left: 300px;
+}
+
+.bloco6 img{
+    margin-right: 350px;
+}
+
+
+
+.tituloauxilio{
+    color: #588b2c;
+    font-size: 29px;
+    font-family: Lemon Milk Light;
+}
+    
+
+.textoauxilio{
+    margin-top: 20px;
+    text-align: justify;
+    width: 90%;
+    font-family: Alberto Sans;
+    font-size: 20px;
+
+}
+
+footer{
+    color: white;
+    background-color: black;
+    min-height: 50px;
+    font-family: Alberto Sans;
+    padding: 15px;
+    justify-items: center;
+    
+    
+}
+
+.local{
+    display: flex;
+    text-indent: 10px;
+}
+
+.local h3{
+    margin-top: 6px;
+}
+
