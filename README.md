@@ -13,6 +13,7 @@ Em caso de ocorrência natural significativa, o aplicativo, a partir da localiza
 governamentais e ONGS, que informariam o nível de lotação em abrigos temporários e albergues, e forneceriam transporte até as acomodações se necessário. 
 
 ESTRUTURA DE PASTAS:
+
 login.html = Simulação de área de login. 
 home.html = Página inicial que contém a apresentação da solução proposta e suas características, além de um botão de direcionamento para o chatbot do projeto em funcionamento.
 funcionalidades.html = Página que detalha as funcionalidades principais do aplicativo.
@@ -22,6 +23,8 @@ contato.html = Página que contém o formulário de contato.
 
 
 ENDEREÇO DO REPOSITÓRIO:
+
+https://github.com/Global-Solution-Front-end-Design/global.git
 
 
 
