@@ -21,9 +21,6 @@
 
 
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -204,5 +201,104 @@ footer{
 .local h3{
     margin-top: 6px;
 }
+
+
+@media (max-width: 600px){
+    
+  .tituloprincipal {
+    font-size: 30px;
+    width: 90%;
+    padding: 40px 10px;
+    text-align: center;
+  }
+
+  .bloco2 {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .blocobeatriz,
+  .blocogiovana,
+  .blocofernanda {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (min-width: 600px){
+    
+
+  .bloco2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .blocobeatriz,
+  .blocogiovana,
+  .blocofernanda {
+    flex: 1 1 100%;
+
+  }
+}
+
+
+@media (max-width: 768px) {
+    .tituloprincipal {
+    font-size: 36px;
+    padding: 60px 20px;
+  }
+
+  .bloco2 {
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+  }
+ 
+}
+
+@media (max-width: 992px){
+
+
+  .bloco2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blocobeatriz,
+  .blocogiovana,
+  .blocofernanda {
+    
+    margin: 10px;
+  }
+
+}
+
+@media (min-width:1300px){
+    .tituloprincipal {
+    font-size: 60px;
+    width: 60%;
+    padding: 100px;
+  }
+
+  .bloco2 {
+    padding: 100px 120px;
+  }
+
+  .blocobeatriz,
+  .blocogiovana,
+  .blocofernanda {
+    flex: 1;
+  }
+
+  .linkgit, 
+  .linklinkedin{
+    margin-left: 80px;
+  }
+  
+}
+
+
+
 
 

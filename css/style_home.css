@@ -326,3 +326,128 @@ footer{
 .local h3{
     margin-top: 6px;
 }
+
+@media (max-width: 600px){
+    nav {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .barrapesquisa {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .tituloprincipal {
+    font-size: 30px;
+    width: 90%;
+    padding: 30px 10px;
+  }
+
+  .textointroducao {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .linha1, .linha2 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .objetivo, .inovacao, .tecnologia,
+  .comunicacao, .bemestar, .acessibilidade {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
+@media (min-width: 600px){
+    .textointroducao {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1300px) {
+  .textointroducao {
+    width: 50%;
+    margin-left: 350px;
+  }
+
+  .linha1, .linha2 {
+    padding: 60px 80px;
+  }
+
+  .tituloprincipal {
+    font-size: 55px;
+  }
+
+  .titulo2 {
+    font-size: 35px;
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .tituloprincipal {
+    font-size: 36px;
+    padding: 50px 20px;
+  }
+
+  .textointroducao {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .linha1, .linha2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .objetivo, .inovacao, .tecnologia,
+  .comunicacao, .bemestar, .acessibilidade {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+}
+
+@media (max-width: 992px){
+header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-left: 0;
+  }
+
+  .barrapesquisa {
+    margin-left: 0;
+  }
+
+  .textointroducao {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .linha1, .linha2 {
+    padding: 30px;
+  }
+
+  .objetivo, .inovacao, .tecnologia,
+  .comunicacao, .bemestar, .acessibilidade {
+    width: 40%;
+  }
+
+}

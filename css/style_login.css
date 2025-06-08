@@ -36,11 +36,11 @@ body, html {
 
 main {
   display: flex;
-  height: 100vh;
+  height: 100%;
   
 }
 
-.form-main {
+.form-login {
 
   flex: 1;
   padding: 60px 40px;
@@ -53,7 +53,7 @@ main {
 
 }
 
-.form-main h2 {
+.form-login h2 {
   font-size: 2rem;
   margin-bottom: 30px;
   font-family: Lemon Milk;
@@ -85,14 +85,6 @@ main {
   font-family: Alberto Sans;;
 }
 
-.toggle-password {
-  
-  position: absolute;
-  right: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
 .opcoes {
     
@@ -103,7 +95,7 @@ main {
   color: #555;
 }
 
-.login-btn {
+.login-botao{
   font-family: Alberto Sans;;
   background-color: #0077C8;
   font-weight: bold;
@@ -118,12 +110,6 @@ main {
 }
 
 
-
-
-
-
-
-
 .imagemlogin {
   flex: 1;
   text-align: center;
@@ -136,6 +122,24 @@ main {
   
 }
 
+@media (max-width: 600px){
+  .form-login{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+}
+
+@media (min-width: 600px){
+  .form-login{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
 
 @media (max-width: 768px) {
   .main {
@@ -146,7 +150,24 @@ main {
     display: none;
   }
 
-  .form-main {
+  .form-login {
     padding: 40px 20px;
   }
+}
+
+@media (max-width: 992px){
+  .form-login{
+    width: 60%;
+    margin: 40px auto;
+  }
+
+}
+
+@media (min-width:1300px){
+  .form-login{
+    width: 60%;
+    padding: 70px 50px;
+
+  }
+
 }

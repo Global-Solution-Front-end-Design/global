@@ -119,7 +119,8 @@ header input{
     width: 65%;
     margin: 0 auto;
     padding: 80px;
-    margin-top: 40px;
+    margin-top: 0px;
+    
     
 }
 
@@ -129,6 +130,7 @@ header input{
     font-family: Lemon Milk;
     font-size: 55px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .subtitulo{
@@ -298,3 +300,138 @@ footer{
     margin-top: 6px;
 }
 
+
+@media (max-width: 600px){
+    nav {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .barrapesquisa {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textointroducao {
+    width: 90%;
+    margin: 20px auto;
+    
+  }
+
+  
+  .resposta2,
+  .resposta3,
+  .resposta4 {
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .foto {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .resposta1 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 600px){
+    .textointroducao {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  
+  .resposta2,
+  .resposta3,
+  .resposta4 {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+  
+  .resposta2,
+  .resposta3,
+  .resposta4 {
+    font-size: 20px;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foto {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .resposta1 img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 992px){
+    header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .barrapesquisa {
+    margin-left: 0;
+  }
+
+  .textointroducao {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  
+  .resposta2,
+  .resposta3,
+  .resposta4 {
+    width: 80%;
+    font-size: 22px;
+  }
+}
+
+@media (min-width:1300px){
+    
+
+  .textointroducao {
+    width: 50%;
+    margin-left: 350px;
+  }
+
+  
+  .resposta2,
+  .resposta3,
+  .resposta4 {
+    font-size: 26px;
+  }
+
+  .resposta1 img {
+    max-width: 500px;
+  }
+  
+}
